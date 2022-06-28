@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Table = styled.table`
   border-collapse: collapse;
-  width: 480px;
+  width: 520px;
   text-align: center;
   color: ${p => p.theme.colors.textSecondary};
   background-color: ${p => p.theme.colors.white};

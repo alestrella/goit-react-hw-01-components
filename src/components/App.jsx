@@ -15,7 +15,7 @@ export const App = () => {
       display="flex"
       alignItems="center"
       flexDirection="column"
-      gridGap={5}
+      gridGap={6}
       py={5}
       bg="background"
       as="main"
