@@ -10,6 +10,7 @@ export const Heading = styled.h2`
   text-align: center;
   font-family: ${p => p.theme.fonts.heading};
   font-size: ${p => p.theme.fontSizes.l};
+  text-transform: uppercase;
   padding: ${p => p.theme.space[4]}px;
   background-color: ${p => p.theme.colors.white};
 `;

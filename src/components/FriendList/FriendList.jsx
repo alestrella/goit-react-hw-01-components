@@ -1,4 +1,4 @@
-import { FriendItem } from '../FriendItem/FriendItem';
+import { FriendItem } from './FriendItem';
 import PropTypes from 'prop-types';
 import { Box } from 'components/Box/Box';
 
