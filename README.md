@@ -1,3 +1,3 @@
-**Read the tutorial: [Русский](README.tutorial.md).**
+**Read the tutorial: [go](README.tutorial.md).**
 
-# React homework#1 - Components. Styling
+# React homework #1 - Components. Styling

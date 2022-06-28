@@ -1,23 +1,14 @@
+import { FriendItem } from '../FriendItem/FriendItem';
 import PropTypes from 'prop-types';
-
-const FriendItem = ({ avatar, name, isOnline }) => {
-  return (
-    //   TODO: add conditional - isOnline
-    <li className="item">
-      <span className="status">{isOnline ? 'Online' : 'Offline'}</span>
-      <img className="avatar" src={avatar} alt="User avatar" width="48" />
-      <p className="name">{name}</p>
-    </li>
-  );
-};
+import { Box } from 'components/Box/Box';
 
 export const FriendList = ({ friends }) => {
   return (
-    <ul>
+    <Box display="flex" flexDirection="column" as="ul">
       {friends.map(({ id, avatar, name, isOnline }) => (
         <FriendItem key={id} avatar={avatar} name={name} isOnline={isOnline} />
       ))}
-    </ul>
+    </Box>
   );
 };
 
@@ -28,6 +19,6 @@ FriendList.propTypes = {
       name: PropTypes.string.isRequired,
       isOnline: PropTypes.bool.isRequired,
       id: PropTypes.number.isRequired,
-    })
-  ),
+    }).isRequired
+  ).isRequired,
 };
