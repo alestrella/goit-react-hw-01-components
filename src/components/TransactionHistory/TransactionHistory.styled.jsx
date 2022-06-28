@@ -8,16 +8,16 @@ export const Table = styled.table`
   background-color: ${p => p.theme.colors.white};
   box-shadow: ${p => p.theme.shadows.card};
 
-  & th,
-  & td {
+  th,
+  td {
     padding-top: ${p => p.theme.space[3]}px;
     padding-bottom: ${p => p.theme.space[3]}px;
   }
 
-  & tr:nth-of-type(even) {
+  tr:nth-of-type(even) {
     background-color: ${p => p.theme.colors.lightAccent};
   }
-  & td:not(:last-child) {
+  td:not(:last-child) {
     border-right: 1.5px solid ${p => p.theme.colors.lightGray};
   }
 `;

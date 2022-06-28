@@ -10,7 +10,7 @@ export const Item = styled.li`
   border-radius: ${p => p.theme.radii.none};
   box-shadow: ${p => p.theme.shadows.card};
 
-  &:not(:last-child) {
+  :not(:last-child) {
     margin-bottom: ${p => p.theme.space[4]}px;
   }
 `;
@@ -18,7 +18,6 @@ export const Item = styled.li`
 export const FriendAvatar = styled.img`
   padding: ${p => p.theme.space[2]}px;
   border: 1px dashed ${p => p.theme.colors.border};
-  /* background-color: ${p => p.theme.colors.background}; */
   border-radius: ${p => p.theme.radii.normal};
 `;
 
