@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/goit-react-hw-01-components/static/js/main.1561213e.js",
+    "main.js": "/goit-react-hw-01-components/static/js/main.ff454eab.js",
     "index.html": "/goit-react-hw-01-components/index.html",
-    "main.1561213e.js.map": "/goit-react-hw-01-components/static/js/main.1561213e.js.map"
+    "main.ff454eab.js.map": "/goit-react-hw-01-components/static/js/main.ff454eab.js.map"
   },
   "entrypoints": [
-    "static/js/main.1561213e.js"
+    "static/js/main.ff454eab.js"
   ]
 }
