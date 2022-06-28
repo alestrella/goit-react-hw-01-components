@@ -7,8 +7,9 @@ export const theme = Object.freeze({
     green: '#080',
     red: '#f00',
     white: '#fff',
-    primary: '#EDF0F3',
-    secondary: '#656EF2',
+    lightGray: '#EDF0F3',
+    accent: '#656EF2',
+    lightAccent: '#e9e5fe',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
@@ -29,6 +30,9 @@ export const theme = Object.freeze({
   lineHeights: {
     body: 1.6,
     heading: 1.125,
+  },
+  borders: {
+    none: 'none',
   },
   radii: {
     none: '0',

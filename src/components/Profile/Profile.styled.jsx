@@ -27,7 +27,7 @@ export const ProfileContact = styled.p`
 export const ProfileStats = styled.ul`
   display: flex;
   justify-content: center;
-  background-color: ${p => p.theme.colors.primary};
+  background-color: ${p => p.theme.colors.lightGray};
 `;
 
 export const StatsItem = styled.li`

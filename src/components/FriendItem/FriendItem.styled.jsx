@@ -17,7 +17,8 @@ export const Item = styled.li`
 
 export const FriendAvatar = styled.img`
   padding: ${p => p.theme.space[2]}px;
-  border: 0.8px dashed ${p => p.theme.colors.border};
+  border: 1px dashed ${p => p.theme.colors.border};
+  /* background-color: ${p => p.theme.colors.background}; */
   border-radius: ${p => p.theme.radii.normal};
 `;
 

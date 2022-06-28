@@ -15,7 +15,6 @@ export const Heading = styled.h2`
 `;
 
 export const StatList = styled.ul`
-  /* width: 100%; */
   display: flex;
   justify-content: space-around;
   border: 1px solid ${p => p.theme.colors.border};
